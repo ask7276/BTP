@@ -51,6 +51,8 @@ IFM Lab GNNs: https://github.com/jwzhanggy/IFMLab_GNN
 
 After downloading the code, you can run
 ```
+python3 script_1_preprocess.py
+python3 script_2_pre_train.py
 python3 script_3_fine_tuning.py
 ```
 directly for node classification. It seems the random seed cannot control the randomness in parameter initialization in transformer, we suggest to run the code multiple times to get good scores.
